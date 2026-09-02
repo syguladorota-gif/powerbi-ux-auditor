@@ -3,7 +3,7 @@ from PIL import Image
 import google.generativeai as genai
 
 # Wklej swój klucz w miejsce tekstu poniżej
-genai.configure(api_key="AQ.Ab8RN6Ls-OXan3mrtNYDQPqRZ7C-RpYsHkAalMCpF7P3-pgj-w")
+genai.configure(api_key="API_KEY")
 
 st.title("Power BI - UX/UI Auditor")
 
