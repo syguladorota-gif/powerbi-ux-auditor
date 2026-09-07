@@ -12,7 +12,7 @@ typ_raportu = st.selectbox(
     ["Business", "Sales", "General-Operations"]
 )
 
-plik = st.file_uploader("Wgraj zrzut ekranu raportu (PNG/JPG)", type=["png", "jpg", "jpeg"])
+plik = st.file_uploader("Upload the file (PNG/JPG)", type=["png", "jpg", "jpeg"])
 
 if plik:
     obraz = Image.open(plik)
