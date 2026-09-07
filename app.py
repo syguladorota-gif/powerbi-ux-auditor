@@ -28,7 +28,7 @@ if plik:
                 else: 
                     wytyczne = "Dla raportu operacyjnego (Operations) użytkownik potrzebuje gęstości danych. Tu nie musi być ładnie, ma być funkcjonalnie. Sprawdź, czy anomalie i alerty (np. kolory czerwone) wyraźnie odcinają się od tła i czy tabele są czytelne."
 
-                model = genai.GenerativeModel('gemini-2.5-flash-lite')
+                model = genai.GenerativeModel('gemini-3.5-flash-lite')
                 prompt = f"""Jesteś wybitnym ekspertem UX/UI od analityki danych. Przeanalizuj ten dashboard (Typ: {typ_raportu}).
                 
                 TWOJE GŁÓWNE WYTYCZNE DLA TEGO TYPU RAPORTU:
