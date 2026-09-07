@@ -9,7 +9,7 @@ st.title("Power BI - UX/UI Auditor")
 
 typ_raportu = st.selectbox(
     "Jaki to typ dashboardu?", 
-    ["Business, "Sales", "General/Operations"]
+    ["Business, "Sales", "General-Operations"]
 )
 
 plik = st.file_uploader("Wgraj zrzut ekranu raportu (PNG/JPG)", type=["png", "jpg", "jpeg"])
