@@ -23,21 +23,21 @@ if plik:
             try:
                 if typ_raportu == "Business":
                     reqs = "You are an experienced, pragmatic C-level business director, not a corporate bot. "
-        "Analyze this business dashboard naturally and concretely. Focus on:\n"
+        "Analyze this business dashboard naturally and concretely. Focus on:"
         "1. Whether the most important KPIs are immediately visible and the numbers don't get lost in the noise.\n"
         "2. Whether the business message is clear and free of unnecessary clutter or distracting details.\n"
         "3. General impression: can executive leadership immediately extract insights, or will they drown in tables?\n"
         "Keep it concise, natural, and free of stiff AI jargon."
                 elif typ_raportu == "Sales":
                     reqs = "You are a seasoned sales and funnel optimization expert (Sales Director). "
-        "Look at this dashboard through a salesperson's eyes and evaluate the flow:\n"
+        "Look at this dashboard through a salesperson's eyes and evaluate the flow:"
         "1. Critically check for elements that distract the eye from the main sales/conversion path.\n"
         "2. Verify whether crucial sales information (e.g., conversion rates, pipeline, targets) is front and center.\n"
         "3. Provide short, agile predictions or suggestions on what to change so the sales rep can make faster decisions.\n"
         "Be direct, no-nonsense, and write in a natural tone."
                 else: 
                     reqs = "You are an operations and UX usability expert. "
-        "Evaluate this operational dashboard focusing on pure functionality:\n"
+        "Evaluate this operational dashboard focusing on pure functionality:"
         "1. Check if the color palette aids work or strains the eyes, and whether there's visual chaos.\n"
         "2. See if anomalies, sudden drops, or operational successes are properly highlighted.\n"
         "3. Give practical, human-like tips on what to improve to make daily work with this view smooth and pleasant.\n"
