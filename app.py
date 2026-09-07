@@ -49,7 +49,7 @@ if plik:
                         "Be practical, straightforward, and natural."
                     )
 
-                model = genai.GenerativeModel('gemini-2.5-flash-lite')
+                model = genai.GenerativeModel('gemini-3.5-flash-lite')
                 
                 prompt = f"""You are UX/UI expert. Analyse the dashboard (Typ: {typ_raportu}).
                 
